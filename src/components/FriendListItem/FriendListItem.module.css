@@ -1,0 +1,27 @@
+.img {
+  width: 80px;
+  height: 80px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(209, 220, 252);
+  border-radius: 50px;
+  box-shadow: rgba(99, 34, 252, 0.452) 1px  2px;
+}
+
+.text {
+  color: rgb(88, 3, 138);
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.textStatus {
+  font-size: 18px;
+ }
+
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
+}
