@@ -12,17 +12,16 @@ export default function TransactionHistory({ items }) {
             </tr>
        </thead>
     
-    
-        { items.map(({ type, amount, currency, id }) => 
-             (
-                <tbody key={id}>
-                    <tr className={css.rowWrap}>
+       <tbody>
+            { items.map(({ type, amount, currency, id }) => 
+                   
+                    <tr   key={id} className={css.rowWrap}>
                         <td className={css.textWrap}>{type}</td>
                         <td className={css.textWrap}>{amount}</td>
                         <td className={css.textWrap}>{currency}</td>
                     </tr>
-                </tbody>
-        ))}
+        )}
+        </tbody>
     </table>
         </div>
     )}
